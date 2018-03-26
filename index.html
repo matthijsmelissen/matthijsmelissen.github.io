@@ -1,36 +1,233 @@
-
+<!DOCTYPE html>
 <html>
-
-<head>
-<title>Matthijs Melissen</title>
-</head>
-
-<body>
-
-<style>
-
-body {
-        font-family: "Noto Sans","sans-serif";
+  <head>
+    <meta charset="utf-8">
+    <title>Driving rules in the Netherlands</title>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <style>
+      body {
+        font-family: "Open Sans","sans-serif";
         padding-left: 20px;
         padding-right: 20px;
-}
+        max-width: 500px;
+        vertical-align: center;
+      }
+      img {
+        height: 1.5em;
+      }
+      p {
+        margin-bottom: 2em;
+        margin-top: .5em;
+      }
+      .street-view {
+        height: 300px;
+        width: 500px;
+      }
+    </style>
 
-h1 {
-        color: #888888;
-}
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script> (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-4497353889676381",
+    enable_page_level_ads: true
+    });
+    </script>
+  </head>
+  <body>
+    <div id="content">
+    <h1>Driving in the Netherlands</h1>
 
-</style>
+    This page gives some tips about driving regulations in the Netherlands for foreign drivers.
 
-<h1>Matthijs Melissen</h1>
+    <h2>Right of way</h2>
 
-<p><b>Matthijs Melissen</b> works as a security consultant at <a href="http://www.computest.nl">Computest</a>.</p>
+    <p>There are two types of intersections in the Netherlands: unequal and equal intersections.</p>
 
-<p>See for more information:</p>
-<ul>
-        <li><a href="https://www.linkedin.com/in/matthijs-melissen-7942729">Linkedin</a></li>
-        <li><a href="https://github.com/math1985">Github</a></li>
-</ul>
+    <div id="give-way" class="street-view"></div>
+    <p>Unequal intersections are intersections between a main road and a side road of lesser importance. Vehicles coming from the side road have to give way to vehicles on the main road. In the picture above, we are coming from a side road and need to give way to traffic on the main road (including bicycles). You can recognize this by the sign <img src="B6.svg"> and the 'shark teeth' (triangles) painted on the road.</p>
 
-</body>
+    <div id="has-right-of-way" class="street-view"></div>
+    <p>Here we are on same intersection, but now we are on the main road, as indicated by sign <img src="B3.svg">. This indicates we have priority over traffic coming from the left and right.</p>
 
+    <div id="priority-road" class="street-view"></div>
+    <p>In addition, sign <img src="B1.svg"> indicates that you are on a priority road with right of way over <em>all</em> side streets (like the side street on the right in this instance). Traffic on the side streets will have shark teeth and a sign <img src="B6.svg">.</p>
+
+    <div id="traffic-lights" class="street-view"></div>
+    <p>However, note that traffic signs on crossings with traffic lights can be ignored if the traffic lights are working: these signs only apply when the lights are out of order. In the picture, the traffic lights are working, so the sign <img src="B6.svg"> does not apply, and we don't need to give way.</p>
+
+    <div id="equal-intersection" class="street-view"></div>
+    <p>Equal intersections can be recognized by the fact that they have no signs or shark teeth. On equal intersections, you need to give way to all vehicles (including bicycles) coming from the right. Such intersections are normally only found on smaller roads, such as within residential districts.</p>
+
+    <div id="uitritconstructie" class="street-view"></div>
+    <p>Sometimes side streets enter the main road across a raised pavement. If you have to cross the raised pavement, you need to give way to all traffic on the main road (including pedestrians on the pavement).</p>
+
+    <div id="turning-right" class="street-view"></div>
+    <p>When turning right, you need to give way to pedestrians on the sidewalk, and bicyclists on the road or bicycle path. Always check your mirrors and do a shoulder check for unexpected cyclists behind you. In the image, the car should give way to the cyclist on the bicycle path.</p>
+
+    <div id="turning-left" class="street-view"></div>
+    <p>When turning left, you need to give way to opposite traffic, as well as pedestrians and bicyclists. In this image, when turning left you should give way to the gray car, the cyclist on the bike path, and the pedestrians.</p>
+
+
+
+
+    <h2>Roundabouts</h2>
+
+
+
+
+    <div id="roundabout-entering" class="street-view"></div>
+    <p>When driving through a roundabout, there are two places where you need to give way. The first is when entering the roundabout: look left to give way to traffic already on the roundabout. On some roundabouts, such as this one, you also need to give way to bicyclists on the roundabout (pay attention to the shark teeth).</p>
+
+    <div id="roundabout-leaving" class="street-view"></div>
+    <p>The second place is when leaving the roundabout: you often (but not always) need to give way to bicyclists and pedestrians. Again, pay attention to the shark teeth and zebra crossing.</p>
+
+    <div id="turbo-roundabout" class="street-view"></div>
+    Multilane roundabouts (turbo-roundabouts) basically work the same. Howver, it is important to choose the correct lane in advance (in this case, left lane for turning left, and right lane for going straight or turning right). After that, just keep following your lane and you will end up at the correct place.
+
+    <h2>Speed limits</h2>
+    <div id="speed-limit" class="street-view"></div>
+    <p>This sign indicates a 70km/h speed limit. With exception of shields containing the word 'ZONE', speed limits are valid until the next intersection.</p>
+
+    <div id="inside-built-up-area" class="street-view"></div>
+    <p>Within built-up areas, the speed limit is 50km/h. The beginning of built-up area is indicated with a sign showing the name of the town: <img src="H1.svg">. Note that in this case, the speed limit of 50km/h is stated explicitly, but the speed limit of 50km/h even holds with only the town name shield.</p>
+
+    <div id="outside-built-up-area" class="street-view"></div>
+    <p>Outside of built-up area, the speed limit is 80km/h. The end of town is indicated with a sign <img src="H2.svg">.</p>
+
+    <div id="autoweg" class="street-view"></div>
+    <p>On motorways signed with <img src="G3.svg">, the speed limit is 100km/h.</p>
+
+    <div id="autosnelweg" class="street-view"></div>
+    <p>On motorways signed with <img src="G1.svg">, the speed limit is 130km/h.</p>
+    </div>
+
+    <script>
+      function initialize() {
+        new google.maps.StreetViewPanorama(
+            document.getElementById('give-way'),
+            {
+              position: {lat: 52.0361916, lng: 4.4904373},
+              pov: {heading: 240, pitch: 0},
+              zoom: 1
+            });
+        new google.maps.StreetViewPanorama(
+            document.getElementById('has-right-of-way'),
+            {
+              position: {lat: 52.0376052, lng: 4.4873439},
+              pov: {heading: 320, pitch: 0},
+              zoom: 1
+            });
+
+        new google.maps.StreetViewPanorama(
+            document.getElementById('priority-road'),
+            {
+              position: {lat: 51.5787411, lng: 4.767553},
+              pov: {heading: 120, pitch: 0},
+              zoom: 1
+            });
+
+        new google.maps.StreetViewPanorama(
+            document.getElementById('traffic-lights'),
+            {
+              position: {lat: 52.0468315, lng: 4.4784949},
+              pov: {heading: 30, pitch: 0},
+              zoom: 1
+            });
+
+        new google.maps.StreetViewPanorama(
+            document.getElementById('equal-intersection'),
+            {
+              position: {lat: 51.5147937, lng: 5.3980643},
+              pov: {heading: 240, pitch: 0},
+              zoom: 1
+            });
+
+        new google.maps.StreetViewPanorama(
+            document.getElementById('uitritconstructie'),
+            {
+              position: {lat: 52.0829826, lng: 4.3470666},
+              pov: {heading: 149, pitch: 0},
+              zoom: 1
+            });
+        new google.maps.StreetViewPanorama(
+            document.getElementById('turning-right'),
+            {
+              position: {lat: 52.0917399, lng: 5.131316},
+              pov: {heading: 344, pitch: 0},
+              zoom: 1
+            });
+        new google.maps.StreetViewPanorama(
+            document.getElementById('turning-left'),
+            {
+              position: {lat: 52.1012346, lng: 5.0990313},
+              pov: {heading: 121, pitch: 0},
+              zoom: 1
+            });
+        new google.maps.StreetViewPanorama(
+            document.getElementById('roundabout-entering'),
+            {
+              position: {lat: 51.9896968, lng: 4.4786387},
+              pov: {heading: 123, pitch: 0},
+              zoom: 1
+            });
+        new google.maps.StreetViewPanorama(
+            document.getElementById('roundabout-leaving'),
+            {
+              position: {lat: 51.9894848, lng: 4.4789561},
+              pov: {heading: 169, pitch: 0},
+              zoom: 1
+            });
+        new google.maps.StreetViewPanorama(
+            document.getElementById('turbo-roundabout'),
+            {
+              position: {lat: 51.9874721, lng: 4.483339},
+              pov: {heading: 135, pitch: 0},
+              zoom: 1
+            });
+        new google.maps.StreetViewPanorama(
+            document.getElementById('speed-limit'),
+            {
+              position: {lat: 52.12459, lng: 4.3876428},
+              pov: {heading: 240, pitch: 0},
+              zoom: 1
+            });
+        new google.maps.StreetViewPanorama(
+            document.getElementById('inside-built-up-area'),
+            {
+              position: {lat: 52.0631172, lng: 4.4517234},
+              pov: {heading: 65, pitch: 0},
+              zoom: 1
+            });
+        new google.maps.StreetViewPanorama(
+            document.getElementById('outside-built-up-area'),
+            {
+              position: {lat: 52.0632618, lng: 4.4517963},
+              pov: {heading: 232, pitch: 0},
+              zoom: 1
+            });
+        new google.maps.StreetViewPanorama(
+            document.getElementById('autoweg'),
+            {
+              position: {lat: 52.1208282, lng: 4.5852962},
+              pov: {heading: 100, pitch: 0},
+              zoom: 1
+            });
+        new google.maps.StreetViewPanorama(
+            document.getElementById('autosnelweg'),
+            {
+              position: {lat: 52.224643, lng: 4.9879607},
+              pov: {heading: 349, pitch: 0},
+              zoom: 1
+            });
+
+
+      }
+    </script>
+
+
+    <script async defer
+         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCROqdiO8nVlly2eNebPsoML2OMmxaa8gc&callback=initialize">
+    </script>
+
+    Additions/corrections: mail me at <a href="mailto:info@matthijsmelissen.nl">info@matthijsmelissen.nl</a> or create a pull request on <a href="https://github.com/matthijsmelissen/driving-in-the-netherlands">Github</a>.
+  </body>
 </html>
